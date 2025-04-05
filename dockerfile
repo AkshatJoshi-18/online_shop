@@ -38,5 +38,5 @@ COPY --from=builder /app .
 # Expose the port :
 EXPOSE 5173
 
-
+#Run
 CMD ["npm", "run", "dev"]
